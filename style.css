@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: rgb(41, 72, 139);
+    color: white;
+}
+
+header{
+    text-align: center;
+    font-size: 35px;
+}
+
+#grid-container{
+    width: 550px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    margin: auto;
+}
+
+#grid-container > div{
+    background-color: green;
+    height: 200px;
+    /* border: 3px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: 'Wallpoet', cursive;
+
+}
+
+#restart{
+    position: absolute;
+    left: 40px;
+    margin-bottom: 20px;
+  
+}
+
+#winner{
+    position: absolute;
+    left: 40px;
+    top: 150px;
+
+}
+
