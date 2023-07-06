@@ -30,4 +30,4 @@ https://www.youtube.com/watch?v=DRaWr0Dcbl0&list=LL&index=3
 
 07/04/2023 - pushed code and updated with all basic game functionality 
 Next step is adding further design features and UI additions
-07/05-06/2023 - updated game with more CSS design such as gradients, and added some button transformations
+07/05-06/2023 - Updated game with more CSS design such as gradients and added some button transformations.  Added scoring and a reset button for the score.  Updated the JS for the restart button to reset some variables to starting values, but maintain score. 
