@@ -51,6 +51,9 @@ for(let i = 0; i < gridItems.length; i++){
         let item = event.target;
         console.log(item);
 
+        //adds a textShadow when clicked
+       
+
         //can change gridItemChosen[i] to gridItemChosen[item.getAttribute("id")]
         //so that can make this a separate function
          
@@ -61,6 +64,10 @@ for(let i = 0; i < gridItems.length; i++){
             }
             else{
                 item.innerHTML = player_1;
+                //adds a textShadow when clicked
+                item.style.transition = "text-shadow 0.25s";
+                item.style.textShadow = "5px 5px grey"
+
                 gridItemsChosen[i] = activePlayer;
                 activePlayer = player_2;
                 console.log(activePlayer)
@@ -74,6 +81,10 @@ for(let i = 0; i < gridItems.length; i++){
             } else{
         
             item.innerHTML = player_2;
+            //adds a textShadow when clicked
+            item.style.transition = "text-shadow 0.25s";
+            item.style.textShadow = "5px 5px rgb(41, 72, 139)";
+
             gridItemsChosen[i] = activePlayer;
             activePlayer = player_1;
             console.log(activePlayer);
@@ -138,6 +149,7 @@ function RestartGame(event){
     clickable = true;
     gridItems.forEach(item => {
         item.innerHTML = item.getAttribute("id");
+        item.style.textShadow = "none";
         
     });
     gridItemsChosen = ["", "", "", "", "", "", "", "", ""];
