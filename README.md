@@ -4,7 +4,7 @@ Engaging game of tic tac toe to be played via couch co-op in the convenience of 
 
 Three (3) person project for a Mod 1 The Game assignment with goal to use the functionalities of HTML5/CSS and JavaScript to explore game making
 
-Technology- HTML5/CSS and JavaScript
+Technology- HTML5/CSS and JavaScript, Visual Studio Code
 
 Resources- W3Schools, Mozilla Firefox
 

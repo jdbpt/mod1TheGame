@@ -3,6 +3,7 @@
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     background-color: rgb(41, 72, 139);
     color: white;
+    
 }
 
 header{
@@ -36,8 +37,25 @@ header{
 #restart{
     position: absolute;
     left: 40px;
-    margin-bottom: 20px;
-  
+    bottom: 300px;
+    width: 200px;
+    height: 80px;
+    border: 5px dotted green;
+    background-color: yellowgreen;
+    font-size: 30px;
+    
+}
+
+#reset-score{
+    position: absolute;
+    right: 40px;
+    bottom: 300px;
+    width: 200px;
+    height: 80px;
+    border: 5px dotted blue;
+    background-color: yellowgreen;
+    font-size: 30px;
+    
 }
 
 #winner{
@@ -45,5 +63,21 @@ header{
     left: 40px;
     top: 150px;
 
+}
+
+#player1{
+    position: absolute;
+    right: 40px;
+    top: 150px;
+}
+
+#player2{
+    position: absolute;
+    right: 40px;
+    top: 200px;
+}
+
+.bigger-font{
+    font-size: 25px;
 }
 

@@ -4,9 +4,17 @@ const player_1 = "X";
 const player_2 = "O";
 let activePlayer = player_1;
 var restartButton = document.getElementById("restart");//button to restart the game
+var resetScoreBtn = document.getElementById("reset-score");//button to reset the score
+let activePlayerMessage = `The Active Player is: ${activePlayer}`;
+winner.innerHTML = activePlayerMessage;//shows the current active player
 //boolean to tell if can click on a grid item or not based on if a winner has been choosen
-winner.innerHTML = `The Active Player is: ${activePlayer}`;//shows the current active player
 let clickable = true;
+//scoring for player 1 X and player 2 O
+let x_score = 0;
+let o_score = 0;
+const xScoring = document.getElementById("x-score");
+const oScoring = document.getElementById("o-score");
+
 const winningConditions = [
     [0, 1, 2],
     [3, 4, 5],
@@ -85,12 +93,18 @@ for(let i = 0; i < gridItems.length; i++){
                 console.log("Player 1 is the winner!");
                 winner.innerHTML = "X wins!";
                 clickable = false;//can no longer play the game as the board is not clickable
+                //update the score
+                x_score += 1;
+                xScoring.innerHTML = x_score;
                 break;
             } else if(gridItemsChosen[optionA]=== player_2 && gridItemsChosen[optionB] === player_2 && gridItemsChosen[optionC] === player_2)
                 {
                 console.log("Player 2 is the winner!");
                 winner.innerHTML = "O wins!";
                 clickable = false;//can no longer play the game as the board is not clickable
+                //update the score
+                o_score += 1;
+                oScoring.innerHTML = o_score;
                 break;
 
             } 
@@ -111,14 +125,36 @@ for(let i = 0; i < gridItems.length; i++){
 
 
 //add an eventListener to the button
-//when we press it we want clickable === true
-//we want to change the innerHTML of each of the gridItems to ""
-//we want to empty out the gridItemsClicked array
-//we want to empty out out results element on screen
+//press it clickable === true
+//change the innerHTML of each of the gridItems back to their numbers based on their id attribute
+//empty out the gridItemsChosen array (change all to "")
+//set activePlayer to player_1
+//change the results element on screen to the active player message
 
-restartButton.addEventListener("click",function(event){
-    location.reload();
-});
+function RestartGame(event){
+    //location.reload(); for reloading the tab
+    clickable = true;
+    gridItems.forEach(item => {
+        item.innerHTML = item.getAttribute("id");
+        
+    });
+    gridItemsChosen = ["", "", "", "", "", "", "", "", ""];
+    activePlayer = player_1;
+    winner.innerHTML = activePlayerMessage;
+    
+}//end RestartGame function
+
+restartButton.addEventListener("click", RestartGame);
+
+//resets the score
+resetScoreBtn.addEventListener("click", function(event){
+    x_score = 0;
+    xScoring.innerHTML = x_score;
+    o_score = 0;
+    oScoring.innerHTML = o_score;
+});//end resetScoreBtn addEventListener
+
+
 
 
 
