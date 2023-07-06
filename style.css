@@ -46,6 +46,13 @@ header > h1{
 
 }
 
+div > p{
+    font-size: 100px;
+    font-family: 'Wallpoet', cursive;
+    background-image: linear-gradient(to right, yellowgreen, green);
+
+}
+
 #restart{
     position: absolute;
     left: 40px;
@@ -60,7 +67,7 @@ header > h1{
 
 #restart:hover{
     width: 220px;
-    transition-duration: 0.5s;
+    transition-duration: 0.25s;
 }
 
 /* https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate3 */
