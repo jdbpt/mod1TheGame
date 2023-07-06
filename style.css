@@ -2,14 +2,25 @@
     margin: 0;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     background-color: rgb(41, 72, 139);
+    
     color: white;
     
 }
 
+
 header{
     text-align: center;
     font-size: 35px;
+   
+    
 }
+
+header > h1{
+    height: 100px;  
+    background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.245), rgb(41, 72, 139));
+}
+
+
 
 #grid-container{
     width: 550px;
@@ -17,9 +28,9 @@ header{
     gap: 5px;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    /* background-color: #2196F3; */
     padding: 10px;
     margin: auto;
+    
 }
 
 #grid-container > div{
@@ -31,6 +42,7 @@ header{
     align-items: center;
     font-size: 100px;
     font-family: 'Wallpoet', cursive;
+    background-image: linear-gradient(to right, yellowgreen, green);
 
 }
 
@@ -46,6 +58,18 @@ header{
     
 }
 
+#restart:hover{
+    width: 220px;
+    transition-duration: 0.5s;
+}
+
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate3 */
+#restart:active{
+
+    box-shadow: 5px 10px rgba(128, 128, 128, 0.245);
+    transform: translateY(2px);
+}
+
 #reset-score{
     position: absolute;
     right: 40px;
@@ -56,6 +80,17 @@ header{
     background-color: yellowgreen;
     font-size: 30px;
     
+}
+
+#reset-score:hover{
+    width: 225px;
+    transition-duration: 0.25s;
+}
+
+#reset-score:active{
+
+    box-shadow: 5px 10px rgba(128, 128, 128, 0.245);
+    transform: translateY(2px);
 }
 
 #winner{
@@ -80,4 +115,12 @@ header{
 .bigger-font{
     font-size: 25px;
 }
+
+.button-shadow{
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.245);
+}
+
+
+
+
 

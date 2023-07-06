@@ -51,7 +51,9 @@ for(let i = 0; i < gridItems.length; i++){
         let item = event.target;
         console.log(item);
 
-        
+        //can change gridItemChosen[i] to gridItemChosen[item.getAttribute("id")]
+        //so that can make this a separate function
+         
 
         if(activePlayer === player_1){
             if(gridItemsChosen[i]==="X" || gridItemsChosen[i] ==="O"){
