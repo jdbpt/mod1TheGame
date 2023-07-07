@@ -31,3 +31,4 @@ Dev Log
 07/04/2023 - pushed code and updated with all basic game functionality 
 Next step is adding further design features and UI additions
 07/05-06/2023 - Updated game with more CSS design such as gradients and added some button transformations.  Added scoring and a reset button for the score.  Updated the JS for the restart button to reset some variables to starting values including the innerHTML of the grid items, but maintain score. Added a text shadow behind the X and Os when clicked/added to the board
+07/06/2023 - Updated game with slight CSS changes, adding cursor pointer over the game board to show it is clickable and cleaning some JS code/comments

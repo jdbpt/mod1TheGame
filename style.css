@@ -30,6 +30,8 @@ header > h1{
     grid-template-rows: auto auto auto;
     padding: 10px;
     margin: auto;
+    /* add the cursor change to pointer to know is clickable */
+    cursor: pointer;
     
 }
 
