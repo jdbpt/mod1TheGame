@@ -49,10 +49,7 @@ for(let i = 0; i < gridItems.length; i++){
             
         }
         let item = event.target;
-        console.log(item);
-
-        //adds a textShadow when clicked
-       
+        console.log(item);//testing       
 
         //can change gridItemChosen[i] to gridItemChosen[item.getAttribute("id")]
         //so that can make this a separate function
@@ -98,6 +95,7 @@ for(let i = 0; i < gridItems.length; i++){
         console.log(gridItemsChosen);
 
         for(let i = 0; i < winningConditions.length; i++){
+            //saving the three numbers in the winningConditions index location array to option variables
             let optionA = winningConditions[i][0];
             let optionB = winningConditions[i][1];
             let optionC = winningConditions[i][2];
@@ -121,8 +119,6 @@ for(let i = 0; i < gridItems.length; i++){
                 break;
 
             } 
-            //need to check if we have a tie**********************************
-
             
         }//for i
 
