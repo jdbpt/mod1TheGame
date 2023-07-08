@@ -107,6 +107,11 @@ for(let i = 0; i < gridItems.length; i++){
                 //update the score
                 x_score += 1;
                 xScoring.innerHTML = x_score;
+
+                //highlight the winning squares
+                gridItems[optionA].style.color = "turquoise";
+                gridItems[optionB].style.color = "turquoise";
+                gridItems[optionC].style.color = "turquoise";
                 break;
             } else if(gridItemsChosen[optionA]=== player_2 && gridItemsChosen[optionB] === player_2 && gridItemsChosen[optionC] === player_2)
                 {
@@ -116,6 +121,11 @@ for(let i = 0; i < gridItems.length; i++){
                 //update the score
                 o_score += 1;
                 oScoring.innerHTML = o_score;
+                
+                //highlight the winning squares
+                gridItems[optionA].style.color = "purple";
+                gridItems[optionB].style.color = "purple";
+                gridItems[optionC].style.color = "purple";
                 break;
 
             } 
@@ -146,6 +156,7 @@ function RestartGame(event){
     gridItems.forEach(item => {
         item.innerHTML = item.getAttribute("id");
         item.style.textShadow = "none";
+        item.style.color = "white";
         
     });
     gridItemsChosen = ["", "", "", "", "", "", "", "", ""];
