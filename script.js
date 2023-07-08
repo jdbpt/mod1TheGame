@@ -109,9 +109,9 @@ for(let i = 0; i < gridItems.length; i++){
                 xScoring.innerHTML = x_score;
 
                 //highlight the winning squares
-                gridItems[optionA].style.color = "turquoise";
-                gridItems[optionB].style.color = "turquoise";
-                gridItems[optionC].style.color = "turquoise";
+                gridItems[optionA].style.color = "goldenrod";
+                gridItems[optionB].style.color = "goldenrod";
+                gridItems[optionC].style.color = "goldenrod";
                 break;
             } else if(gridItemsChosen[optionA]=== player_2 && gridItemsChosen[optionB] === player_2 && gridItemsChosen[optionC] === player_2)
                 {
