@@ -1,16 +1,16 @@
-# mod1TheGame
+# mod1TheGame  Tic Tac Toe Bonanza
 
-Engaging game of tic tac toe to be played via couch co-op in the convenience of a browser game without need for paper and pencils.
+**Engaging game of tic tac toe to be played via couch co-op in the convenience of a browser game without need for paper and pencils.**
 
 Three (3) person project for a Mod 1 The Game assignment with goal to use the functionalities of HTML5/CSS and JavaScript to explore game making
 
-GitHub pages site: https://jdbpt.github.io/mod1TheGame/
+##GitHub pages site: https://jdbpt.github.io/mod1TheGame/
 
-Technology- HTML5/CSS and JavaScript, Visual Studio Code
+##Technology- HTML5/CSS and JavaScript, Visual Studio Code
 
-Resources- W3Schools, Mozilla Firefox
+##Resources- W3Schools, Mozilla Firefox
 
-Tic Tac Toe inspirations and guidance: 
+##Tic Tac Toe inspirations and guidance: 
 
 Coding With Siphiwo
 Create a Simple Tic Tac Toe Game with JavaScript, HTML & CSS for Beginners | 2022 Tutorial 
@@ -29,7 +29,7 @@ Super Easy Tic-tac-toe in JavaScript!
 YouTube
 https://www.youtube.com/watch?v=DRaWr0Dcbl0&list=LL&index=3 
 
-Dev Log
+##Dev Log
 
 07/04/2023 - pushed code and updated with all basic game functionality 
 Next step is adding further design features and UI additions
