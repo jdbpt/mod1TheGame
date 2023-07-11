@@ -10,7 +10,8 @@
 
 header{
     text-align: center;
-    font-size: 35px;
+    font-size: 38px;
+    text-shadow: 5px 3px 2px rgb(41, 72, 139);
    
     
 }
@@ -114,6 +115,18 @@ header > h1{
     right: 40px;
     top: 200px;
    
+}
+
+#x-image{
+    position: absolute;
+    bottom: 150px;
+    left: 40px;
+}
+
+#o-image{
+    position: absolute;
+    bottom: 150px;
+    right: 40px;
 }
 
 .bigger-font{

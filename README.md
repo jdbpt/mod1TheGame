@@ -41,4 +41,6 @@ Next step is adding further design features and UI additions
 
 07/06/2023 - Updated game with slight CSS changes, adding cursor pointer over the game board to show it is clickable and cleaning some JS code/comments
 
-07/08/2023 - Updated game with some color change of the winning squares, and increased the opacity of the gradient on the header.  
+07/08/2023 - Updated game with some color change of the winning squares, and increased the opacity of the gradient on the header. 
+
+07/10/2023 - Updated CSS for some text-shadow on title, and bigger text.  Added two images with alt-text placeholders to prep for image addition to be completed tomorrow
