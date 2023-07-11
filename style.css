@@ -21,7 +21,7 @@ header{
 header > h1{
     height: 100px;  
     background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.621), rgb(41, 72, 139));
-    color: white;
+    color: lightsalmon;
 
 }
 
