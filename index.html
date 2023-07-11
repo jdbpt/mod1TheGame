@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Wallpoet&display=swap" rel="stylesheet">
     <script defer src="script.js"></script>
 </head>
-<body>
+<body id="wrapper">
     <header>
         <h1>Tic Tac Toe Bonanza</h1>
     </header>
@@ -22,8 +22,11 @@
     <h3 id="player1" class="bigger-font">X Player Score: <span id="x-score">0</span></h3>
     <h3 id="player2" class="bigger-font">O Player Score: <span id="o-score">0</span></h3>
     <button id="reset-score" class="button-shadow">Reset Score</button>
-    <img src="" alt="X image" id="x-image">
-    <img src="" alt="O image" id="o-image">
+    
+    <!-- decoration and indicator on winner on screen -->
+    <h3 id="x-image" class="decorMovementX">X</h3>
+    <h3 id="o-image" class="decorMovementO">O</h3>
+
     <div id="grid-container">
         <div id="0">0</div>
         <div id="1">1</div>

@@ -15,6 +15,11 @@ let o_score = 0;
 const xScoring = document.getElementById("x-score");
 const oScoring = document.getElementById("o-score");
 
+//color changing decoration for winner
+const xDecoration = document.getElementById("x-image");
+const oDecoration = document.getElementById("o-image");
+
+
 const winningConditions = [
     [0, 1, 2],
     [3, 4, 5],
@@ -112,6 +117,10 @@ for(let i = 0; i < gridItems.length; i++){
                 gridItems[optionA].style.color = "goldenrod";
                 gridItems[optionB].style.color = "goldenrod";
                 gridItems[optionC].style.color = "goldenrod";
+                //highlight the winning image
+                xDecoration.style.backgroundColor = "goldenrod";
+                winner.style.backgroundColor = "goldenrod";
+
                 break;
             } else if(gridItemsChosen[optionA]=== player_2 && gridItemsChosen[optionB] === player_2 && gridItemsChosen[optionC] === player_2)
                 {
@@ -126,6 +135,10 @@ for(let i = 0; i < gridItems.length; i++){
                 gridItems[optionA].style.color = "purple";
                 gridItems[optionB].style.color = "purple";
                 gridItems[optionC].style.color = "purple";
+                //highlight the winning image
+                oDecoration.style.backgroundColor = "purple";
+                winner.style.backgroundColor = "purple";
+
                 break;
 
             } 
@@ -136,6 +149,9 @@ for(let i = 0; i < gridItems.length; i++){
         if(!gridItemsChosen.includes("") && clickable){
             console.log("Cat- it is a Tie!");
             winner.innerHTML = "Cat- it is a Tie!";
+            xDecoration.style.backgroundColor = "green";
+            oDecoration.style.backgroundColor = "green";
+            winner.style.backgroundColor = "green";
             clickable = false;
         }
         
@@ -157,6 +173,11 @@ function RestartGame(event){
         item.innerHTML = item.getAttribute("id");
         item.style.textShadow = "none";
         item.style.color = "white";
+        xDecoration.style.backgroundColor = "inherit";
+        oDecoration.style.backgroundColor = "inherit";
+        winner.style.backgroundColor = "inherit";
+
+
         
     });
     gridItemsChosen = ["", "", "", "", "", "", "", "", ""];
