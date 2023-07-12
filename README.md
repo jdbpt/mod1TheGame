@@ -45,4 +45,6 @@ Next step is adding further design features and UI additions
 
 07/10/2023 - Updated CSS for some text-shadow on title, and bigger text.  Added two images with alt-text placeholders to prep for image addition to be completed tomorrow
 
-07/10/2023 - Decided to not create own image and instead use the font already in use.  Then added some animations with help from Mozilla website, and some color change behind the decoration of X and O to indicate winners or tie. 
+07/10/2023 - Decided to not create own image and instead use the font already in use.  Then added some animations with help from Mozilla website, and some color change behind the decoration of X and O to indicate winners or tie.
+
+07/12/2023 - Final major push, added a favicon
