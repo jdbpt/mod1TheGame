@@ -165,6 +165,7 @@ for(let i = 0; i < gridItems.length; i++){
 //empty out the gridItemsChosen array (change all to "")
 //set activePlayer to player_1
 //change the results element on screen to the active player message
+//reset colors and backgorund colors to initial values
 
 function RestartGame(event){
     //location.reload(); for reloading the tab

@@ -2,16 +2,16 @@
 
 ## Engaging game of tic tac toe to be played via couch co-op in the convenience of a browser game without need for paper and pencils.
 
-Three (3) person project for a Mod 1 The Game assignment with goal to use the functionalities of HTML5/CSS and JavaScript to explore game making
+Three (3) person project for Mod 1 - The Game assignment:  Goal of project to use the functionalities of HTML5/CSS and JavaScript to explore game making
 
 ### GitHub pages site
  https://jdbpt.github.io/mod1TheGame/
 
 ### Technology
-HTML5/CSS and JavaScript, Visual Studio Code
+HTML5/CSS and JavaScript, Visual Studio Code, Corel Painter 2021 student edition
 
 ### Resources
-W3Schools, Mozilla Firefox
+W3Schools, Mozilla mdn web docs, Mod 1 specifications
 
 ### Tic Tac Toe inspirations and guidance: 
 
