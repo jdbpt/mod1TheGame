@@ -3,6 +3,11 @@
 ## Engaging game of tic tac toe to be played via couch co-op in the convenience of a browser game without need for paper and pencils.
 
 Three (3) person project for Mod 1 - The Game assignment:  Goal of project to use the functionalities of HTML5/CSS and JavaScript to explore game making
+- Group Members: jdbpt (Jocely), Christienne, and Sanikwa
+- Each had our separate repositories and code, each project is unique in some manner of design (code/function and UI appearance) for each group member
+Thanks to [Per Scholas](https://perscholas.org/) for the WISE program!
+- Note: this project was for educational purposes, created during the duration of the Per Scholas bootcamp.
+
 
 ### GitHub pages site
  https://jdbpt.github.io/mod1TheGame/
