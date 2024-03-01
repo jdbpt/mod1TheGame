@@ -1,5 +1,7 @@
 # mod1TheGame  Tic Tac Toe Bonanza
 
+![Screenshot of the Tic Tac Toe Bonanza game](./images/ScreenshotOfGame.png)
+
 ## Engaging game of tic tac toe to be played via couch co-op in the convenience of a browser game without need for paper and pencils.
 
 Three (3) person project for Mod 1 - The Game assignment (Per Scholas bootcamp project)  
